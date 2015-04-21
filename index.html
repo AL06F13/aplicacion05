@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+  <input type="text" id="txtnombre">Nombre</input>
+    <a href ="#"  id="btndatos" class="ui-btn ui-icon-arrow-r ui-btn-icon-bottom ui-shadow ui-corner-all">Siguiente</a>
+  </div>
+
+  <div data-role="footer">
+     <h1>@Ricardo Antonio Caro Flores </h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- datos -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <input type="text" id="txtpeso">Peso</input>
+   <input type="text" id="txttalla">Talla</input>
+    <a href ="#" id="btnresultado"class="ui-btn ui-icon-arrow-r ui-btn-icon-bottom ui-shadow ui-corner-all">Siguiente</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>@Ricardo Antonio Caro Flores</h1>
+  </div>
+ </div>  
+ <!-- datos -->
+ 
+ <!-- resultado -->
+ <div data-role="page" id="resultado" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+   <h3>Resultado</h3>
+   <h3>IMC</h3>
+   <div id="imc">
+   
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@Ricardo Antonio Caro Flores</h1>
+  </div>
+ </div>  
+ <!-- resultado -->
+
+ </body>
+</html> 
